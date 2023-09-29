@@ -19,7 +19,7 @@ class AttackFactory(metaclass=Singleton):
         """
         Instantiate an AbstractAttack based on the provided types
 
-        :param type: the attack type
+        :param type: the attack types
         :type type: str
         :param power: the attack power, defaults to None
         :type power: int, optional
