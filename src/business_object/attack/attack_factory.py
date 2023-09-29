@@ -17,7 +17,7 @@ class AttackFactory(metaclass=Singleton):
         element: str = None,
     ) -> AbstractAttack:
         """
-        Instantiate an AbstractAttack based on the provided type
+        Instantiate an AbstractAttack based on the provided types
 
         :param type: the attack type
         :type type: str
